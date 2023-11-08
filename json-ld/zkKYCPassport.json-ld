@@ -6,37 +6,37 @@
          "id":"@id",
          "type":"@type",
          "ZKKYC":{
+            "@id": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/zkKYCPassport.json-ld",
             "@context":{
                "@propagate":true,
                "@protected":true,
-               "polygon-vocab":"urn:uuid:710657a4-91e5-438b-a441-86ccd0f70f5a#",
+               "vocab":"https://github.com/Xiaod0ng/Schema/blob/main/vocab/zkKYCPassport.md",
                "xsd":"http://www.w3.org/2001/XMLSchema#",
                "Surname":{
-                  "@id":"polygon-vocab:Surname",
+                  "@id":"vocab:Surname",
                   "@type":"xsd:string"
                },
                "GivenNames":{
-                  "@id":"polygon-vocab:GivenNames",
+                  "@id":"vocab:GivenNames",
                   "@type":"xsd:string"
                },
                "Nationality":{
-                  "@id":"polygon-vocab:Nationality",
+                  "@id":"vocab:Nationality",
                   "@type":"xsd:string"
                },
                "DateOfBirth":{
-                  "@id":"polygon-vocab:DateOfBirth",
+                  "@id":"vocab:DateOfBirth",
                   "@type":"xsd:string"
                },
                "Sex":{
-                  "@id":"polygon-vocab:Sex",
+                  "@id":"vocab:Sex",
                   "@type":"xsd:string"
                },
                "PlaceOfBirth":{
-                  "@id":"polygon-vocab:PlaceOfBirth",
+                  "@id":"vocab:PlaceOfBirth",
                   "@type":"xsd:string"
                }
-            },
-            "@id":"urn:uuid:752147eb-299d-4a82-a17e-cd0a50114100"
+            }
          }
       }
    ]

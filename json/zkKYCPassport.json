@@ -2,7 +2,8 @@
   "$metadata":{
      "type":"ZKKYC",
      "uris":{
-        "jsonLdContext":"ipfs://QmX4zWWqJWsTNLL5givEwJc8wKzrw6Wb3eDn2mDDQ7EjSF"
+        "jsonLdContext":"https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/zkKYCPassport.json-ld",
+        "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/zkKYCPassport.json"
      },
      "version":"1.6"
   },
