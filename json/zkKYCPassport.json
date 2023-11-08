@@ -1,0 +1,140 @@
+{
+  "$metadata":{
+     "type":"ZKKYC",
+     "uris":{
+        "jsonLdContext":"ipfs://QmX4zWWqJWsTNLL5givEwJc8wKzrw6Wb3eDn2mDDQ7EjSF"
+     },
+     "version":"1.6"
+  },
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "description":"Mimic the information on real passport.",
+  "title":"ZKKYC-Passport",
+  "properties":{
+     "@context":{
+        "type":[
+           "string",
+           "array",
+           "object"
+        ]
+     },
+     "expirationDate":{
+        "format":"date-time",
+        "type":"string"
+     },
+     "id":{
+        "type":"string"
+     },
+     "issuanceDate":{
+        "format":"date-time",
+        "type":"string"
+     },
+     "issuer":{
+        "type":[
+           "string",
+           "object"
+        ],
+        "format":"uri",
+        "properties":{
+           "id":{
+              "format":"uri",
+              "type":"string"
+           }
+        },
+        "required":[
+           "id"
+        ]
+     },
+     "type":{
+        "type":[
+           "string",
+           "array"
+        ],
+        "items":{
+           "type":"string"
+        }
+     },
+     "credentialSubject":{
+        "description":"Stores the data of the credential",
+        "title":"Credential subject",
+        "properties":{
+           "id":{
+              "description":"Stores the DID of the subject that owns the credential",
+              "title":"Credential subject ID",
+              "format":"uri",
+              "type":"string"
+           },
+           "Surname":{
+              "description":"Family name of the owner",
+              "title":"Family name",
+              "type":"string"
+           },
+           "GivenNames":{
+              "description":"Given name of the owner",
+              "title":"First and medium names",
+              "type":"string"
+           },
+           "Nationality":{
+              "description":"Nationality of the owner",
+              "title":"Nationality",
+              "type":"string"
+           },
+           "DateOfBirth":{
+              "description":"Birthday of the owner",
+              "examples":[
+                 "20001231"
+              ],
+              "title":"Birthdate",
+              "format":"regex",
+              "maxLength":8,
+              "minLength":8,
+              "pattern":"\\d{4}\\d{2}\\d{2}",
+              "type":"string"
+           },
+           "Sex":{
+              "description":"Sex of the owner",
+              "enum":[
+                 "Female",
+                 "Male"
+              ],
+              "title":"Sex",
+              "type":"string"
+           },
+           "PlaceOfBirth":{
+              "description":"Birth place of the owner",
+              "title":"Birth place",
+              "type":"string"
+           }
+        },
+        "required":[
+           
+        ],
+        "type":"object"
+     },
+     "credentialSchema":{
+        "properties":{
+           "id":{
+              "format":"uri",
+              "type":"string"
+           },
+           "type":{
+              "type":"string"
+           }
+        },
+        "required":[
+           "id",
+           "type"
+        ],
+        "type":"object"
+     }
+  },
+  "required":[
+     "@context",
+     "id",
+     "issuanceDate",
+     "issuer",
+     "type",
+     "credentialSubject",
+     "credentialSchema"
+  ],
+  "type":"object"
+}
