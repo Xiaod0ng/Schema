@@ -9,14 +9,14 @@
             "@context":{
                "@propagate":true,
                "@protected":true,
-               "vocab":"https://github.com/Xiaod0ng/Schema/blob/main/vocab/test-Age.md",
+               "vocab":"https://github.com/Xiaod0ng/Schema/blob/main/vocab/test-Age.md#",
                "xsd":"http://www.w3.org/2001/XMLSchema#",
                "birthday":{
                   "@id":"vocab:birthday",
                   "@type":"xsd:integer"
                }
             },
-            "@id":"https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/test-Age.json-ld"
+            "@id":"https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/test-Age.json-ld#KYC"
          }
       }
    ]
