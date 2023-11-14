@@ -1,0 +1,23 @@
+{
+   "@context":[
+      {
+         "@protected":true,
+         "@version":1.1,
+         "id":"@id",
+         "type":"@type",
+         "KYC":{
+            "@context":{
+               "@propagate":true,
+               "@protected":true,
+               "polygon-vocab":"urn:uuid:2e4a51a2-cdf7-4dab-9db4-a39a64ac8530#",
+               "xsd":"http://www.w3.org/2001/XMLSchema#",
+               "birthday":{
+                  "@id":"polygon-vocab:birthday",
+                  "@type":"xsd:integer"
+               }
+            },
+            "@id":"urn:uuid:8f2a14d8-a000-4529-a9fa-bf017dcdf76d"
+         }
+      }
+   ]
+}
