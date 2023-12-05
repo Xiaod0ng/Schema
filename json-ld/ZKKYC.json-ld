@@ -1,0 +1,27 @@
+{
+   "@context":[
+      {
+         "@protected":true,
+         "@version":1.1,
+         "id":"@id",
+         "type":"@type",
+         "KYC":{
+            "@context":{
+               "@propagate":true,
+               "@protected":true,
+               "vocab":"https://github.com/Xiaod0ng/Schema/blob/main/vocab/ZKKYCID.md#",
+               "xsd":"http://www.w3.org/2001/XMLSchema#",
+               "Birthday":{
+                  "@id":"vocab:Birthday",
+                  "@type":"xsd:integer"
+               },
+               "Sex":{
+                  "@id":"vocab:Sex",
+                  "@type":"xsd:string"
+               }
+            },
+            "@id":"https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/ZKKYCID.json-ld#KYC"
+         }
+      }
+   ]
+}
