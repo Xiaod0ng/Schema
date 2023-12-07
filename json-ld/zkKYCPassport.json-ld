@@ -5,7 +5,7 @@
          "@version":1.1,
          "id":"@id",
          "type":"@type",
-         "ZKKYC":{
+         "KYC":{
             "@id": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/zkKYCPassport.json-ld",
             "@context":{
                "@propagate":true,
