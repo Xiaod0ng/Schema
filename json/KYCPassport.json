@@ -1,15 +1,15 @@
 {
   "$metadata": {
-    "type": "ZKKYC",
+    "type": "KYC",
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/zkKYCPassport.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/zkKYCPassport.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCPassport.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/KYCPassport.json"
     },
-    "version": "1.6"
+    "version": "1.7"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Mimic the information on real passport.",
-  "title": "ZKKYC-Passport",
+  "title": "KYC-Passport",
   "properties": {
     "@context": {
       "type": ["string", "array", "object"]
