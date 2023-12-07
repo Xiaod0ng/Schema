@@ -2,10 +2,10 @@
   "$metadata": {
     "type": "KYC",
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCPassport.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/KYCPassport.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCNoBirth.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/KYCNoBirth.json"
     },
-    "version": "1.7"
+    "version": "1.8"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Mimic the information on real passport.",
@@ -65,16 +65,6 @@
         "Nationality": {
           "description": "Nationality of the owner",
           "title": "Nationality",
-          "type": "string"
-        },
-        "DateOfBirth": {
-          "description": "Birthday of the owner",
-          "examples": ["20001231"],
-          "title": "Birthdate",
-          "format": "regex",
-          "maxLength": 8,
-          "minLength": 8,
-          "pattern": "\\d{4}\\d{2}\\d{2}",
           "type": "string"
         },
         "Sex": {

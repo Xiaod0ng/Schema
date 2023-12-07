@@ -6,7 +6,7 @@
          "id":"@id",
          "type":"@type",
          "KYC":{
-            "@id": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCPassport.json-ld",
+            "@id": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCNoBirth.json-ld",
             "@context":{
                "@propagate":true,
                "@protected":true,
@@ -22,10 +22,6 @@
                },
                "Nationality":{
                   "@id":"vocab:Nationality",
-                  "@type":"xsd:string"
-               },
-               "DateOfBirth":{
-                  "@id":"vocab:DateOfBirth",
                   "@type":"xsd:string"
                },
                "Sex":{
