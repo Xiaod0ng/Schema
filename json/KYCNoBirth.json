@@ -79,7 +79,7 @@
           "type": "string"
         }
       },
-      "required": [],
+      "required": ["Sex"],
       "type": "object"
     },
     "credentialSchema": {
