@@ -2,8 +2,8 @@
   "$metadata": {
     "type": "KYC",
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCNoBirth.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/KYCNoBirth.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/KYCRequire.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json/KYCRequire.json"
     },
     "version": "1.8"
   },
