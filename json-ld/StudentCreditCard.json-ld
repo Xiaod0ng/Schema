@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "CreditCard": {
+         "@id": "https://raw.githubusercontent.com/Xiaod0ng/Schema/main/json-ld/StudentCreditCard.json-ld",
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "vocab": "https://github.com/Xiaod0ng/Schema/blob/main/vocab/StudentCreditCard.md",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "DOB": {
+            "@id": "vocab:DOB",
+            "@type": "xsd:string"
+          },
+          "University": {
+            "@id": "vocab:University",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
